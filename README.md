@@ -29,7 +29,7 @@ Once you have installed the above and have cloned the repository, you can follow
 
 1. Copy the `.env.example` file to `.env` and update the values as per your needs.
 
-2. Run the Flask API and redis containers:
+2. Run the fastAPI and MongoDB containers:
 
 ```bash
 docker-compose up -d
@@ -39,9 +39,9 @@ The server should now be running on `http://localhost:8000`
 
 ## Usage
 
-Open in your browser `http://localhost:8000/docs`
+The full API documentation should be available at `http://localhost:8000/docs`.
 
-Here you will find the full documentation for the API.
+There you can also try the endpoints functionality.
 
 ## Feedback
 
