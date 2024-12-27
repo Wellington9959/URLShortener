@@ -12,8 +12,8 @@ services:
     volumes:
       - .:/app
   db:
-    image: mongo:7.0.1
-    container_name: mongoDB
+    image: mongo
+    container_name: MongoDB
     restart: always
     ports:
       - 27017:27017
